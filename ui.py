@@ -1,10 +1,7 @@
-from typing import Dict, Optional
-
 import PyQt5
 from PyQt5 import QtCore
-from PyQt5.QtWidgets import (QApplication, QDialog, QHBoxLayout, QLabel,
-                             QProgressDialog, QPushButton, QTextEdit,
-                             QVBoxLayout, QWidget)
+from PyQt5.QtWidgets import (QApplication, QDialog, QHBoxLayout, QPushButton,
+                             QTextEdit, QVBoxLayout)
 
 
 class Dialog(QDialog):
